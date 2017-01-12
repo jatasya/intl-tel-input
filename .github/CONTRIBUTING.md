@@ -16,3 +16,7 @@ I have got it resolved by installing graphicsmagick and imagemagick and its path
 http://stackoverflow.com/questions/31214724/gm-conversion-issue-in-node-js
 
 after this I got evenizer error, I got this fixed by installing evenizer as mentioned above.
+
+link to install imagemagick in ubuntu 14.04
+
+https://www.enovate.co.uk/blog/2015/12/16/how-to-install-imagemagick-from-source-on-ubuntu-14.04
