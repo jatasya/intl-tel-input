@@ -6,3 +6,13 @@ You will need to install [npm](https://www.npmjs.org) to build the project. You 
 Running `grunt build` can be quite slow - you can also run `grunt js` to just build the JavaScript, and `grunt jasmine` to just run the tests.
 
 If when building, you get an error in the "exec:evenizer" task, you may need to temporarily increase the ulimit by running this command: `ulimit -S -n 2048`
+
+I came up with below issue when doing `grunt build` in windows
+
+`[Error: Could not execute GraphicsMagick/ImageMagick: identify "-ping" "-verbose" "your path" this most likely means the gm/convert binaries can't be found]`
+
+I have got it resolved by installing graphicsmagick and imagemagick and its path in environment variable will be automatically set up. Then I have to restart the windows to reflect the changes and now I can successfully converts and image.I found this in below link
+
+http://stackoverflow.com/questions/31214724/gm-conversion-issue-in-node-js
+
+after this I got evenizer error, I got this fixed by installing evenizer as mentioned above.
